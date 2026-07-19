@@ -1,0 +1,8 @@
+[gd_resource type="AudioStreamRandomizer" load_steps=2 format=3 uid="uid://djdtxldm33bw7"]
+
+[ext_resource type="AudioStream" uid="uid://c0hkmgwqpbd20" path="res://custom_sounds_dl062/ui/button_hover.mp3" id="1_4tjam"]
+
+[resource]
+random_pitch = 1.05
+streams_count = 1
+stream_0/stream = ExtResource("1_4tjam")

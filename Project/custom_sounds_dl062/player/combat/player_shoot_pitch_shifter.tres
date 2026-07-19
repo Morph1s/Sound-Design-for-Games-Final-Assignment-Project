@@ -1,0 +1,9 @@
+[gd_resource type="AudioStreamRandomizer" load_steps=2 format=3 uid="uid://cmhatvw31lr2"]
+
+[ext_resource type="AudioStream" uid="uid://be0b2lxxmfklm" path="res://custom_sounds_dl062/player/combat/player_shoot.mp3" id="1_q63lv"]
+
+[resource]
+random_pitch = 1.1
+random_volume_offset_db = 1.0
+streams_count = 1
+stream_0/stream = ExtResource("1_q63lv")
